@@ -373,7 +373,7 @@ The media type video/AV1 string is mapped to fields in the Session Description P
 * Parameter "**tier**" COULD be included alongside "**profile**" and "**level-idx** parameters in "a=fmtp" line if the indicated level supports tier different to 0.
 
 
-### 7.2.2 RID restrictions mapping for AV1
+#### 7.2.2 RID restrictions mapping for AV1
 
 RID specification declares the set of codec-agnostic restrictions for media streams. All the restrictions are optional and are subject to negotiation based on the SDP Offer/Answer rules described in Section 6 in [I-D.ietf-mmusic-rid]. When restrictions applied to AV1 codec, they must have following interpretation:
 * **max-width**, maximum width of the frame in units of samples. The meaning of the restriction is the same as variable **MaxHSize** of the levels table from Section A.3 of [AV1].
